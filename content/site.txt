@@ -1,17 +1,13 @@
-Title: Kirby Starterkit
+Title: Mixd Kirby Boilerplate
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Aaron Thomas, Mixd
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: The Mixd starting point for Kirby based projects
 
 ----
 
-Keywords: Kirby, CMS, file-based
-
-----
-
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Keywords: Mixd, Kirby, boilerplate

@@ -15,6 +15,3 @@ fields:
   keywords:
     label: Keywords
     type:  tags
-  copyright:
-    label: Copyright
-    type:  textarea
