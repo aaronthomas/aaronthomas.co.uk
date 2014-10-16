@@ -1,7 +1,9 @@
-Title: Mixd Kirby boilerplate
+Title: Aaron Thomas
 
 ----
 
 Text: 
 
-Hello! Welcome to the Mixd Kirby boilerplate. Everything is a bit basic here right now, but it's a great starting point!
+I’m Aaron, a Front-end Web Developer based in Leeds, currently working for [Mixd](http://mixd.co.uk) – a small web design studio in Harrogate.
+
+I specialise in writing well-structured, maintainable code for responsive websites, and integrating with third party open source platforms.

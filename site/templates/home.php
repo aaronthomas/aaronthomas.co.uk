@@ -1,14 +1,21 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-
-    <div class="container">
-      <h1><?php echo $page->title()->html() ?></h1>
+  <article class="intro container">
       <?php echo $page->text()->kirbytext() ?>
-    </div>
+  </article>
 
-  </main>
 
+
+</main>
+
+<section class="panels viewport__lower">
+	<article class="panels__block">Mixd</article>
+	<article class="panels__block">WITW</article>
+	<article class="panels__block">GitHub</article>
+	<article class="panels__block">Twitter</article>
+	<article class="panels__block">Instagram</article>
+	<article class="panels__block">Blog</article>
+</section>
 <?php snippet('footer') ?>
 
 

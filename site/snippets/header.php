@@ -19,4 +19,9 @@
     <noscript><?php echo css('assets/grunticon/icons.fallback.css') ?></noscript>
 </head>
 
-<body>
+<body class="viewport">
+
+<main class="viewport__upper" role="main">
+    <header class="header container" role="banner">
+    <h1 class="site-title gamma"><?php echo $site->title()->html() ?></h1>
+    </header> 
