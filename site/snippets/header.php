@@ -16,10 +16,11 @@
     <!--[if gt IE 8]><!-->
     <?php echo css('assets/css/styles.css') ?>
     <!--<![endif]-->
+    <?php echo js('assets/js/min/head.min.js"') ?>
     <noscript><?php echo css('assets/grunticon/icons.fallback.css') ?></noscript>
 </head>
 
-<body class="viewport">
+<body class="viewport debug">
 
 <main class="viewport__upper" role="main">
     <header class="header container" role="banner">

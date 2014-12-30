@@ -2,16 +2,21 @@
 \*----------------------------------------------------------------*/
 
 .viewport{
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+	@include respond-min($bp1){
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
 }
 
 .viewport__upper{
-	 display: flex;
-	 flex-direction: column;
-	 align-items: center;
-	 justify-content: center;
+	@include respond-min($bp1){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	padding: 2em 0;
 }
 
 .viewport__upper, .viewport__lower{

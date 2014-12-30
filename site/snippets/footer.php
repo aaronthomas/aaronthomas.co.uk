@@ -1,4 +1,4 @@
 
-<?php echo js('assets/js/all.min.js"') ?>
+<?php echo js('assets/js//min/main.min.js"') ?>
 </body>
 </html>

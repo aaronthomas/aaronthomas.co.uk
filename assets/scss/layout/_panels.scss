@@ -1,16 +1,105 @@
 .panels{
-	min-height: 20em;
-	background: #FFF;
-	display: flex;
-	min-width: 10em;
+	width: 100%;
+
+	@include respond-min($bp1){
+		min-height: 20em;
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 .panels__block{
-	flex: 1;
-	border-top: 1px solid #ccc;
-	border-left: 1px solid #ccc;
+	border-top: 1px solid darken(#FFF, 6%);
+	padding: 1em;
+
+	@include respond-min($bp1){
+		flex: 0 0 50%;
+		border-left: 1px solid darken(#FFF, 6%);
+		
+		&:last-child{
+			flex-grow: 2;
+		}
+	}
+
+	@include respond-min($bp3){
+		flex: 1;
+		&:last-child{
+			flex-grow: 1;
+		}
+	}
+
+	@include respond-min($bp4){
+		flex: 1;
+		&:last-child{
+			flex-grow: 1;
+		}
+	}
+	
+}
+
+.tile{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	min-height: 20.4em;
+
+	transition: background-color .3s linear;
 
 	&:hover{
-		background: #eee;
+		background-color: darken(#FFF, 4%);
+		.tile__icon{
+			fill: #FFF;
+			transform: translateY(-1em);
+		}
+		.tile__info{
+			display: block;
+		}
 	}
 }
+
+.tile__content{
+	margin: 1em 0;
+	text-align: center;
+	font-size: .9em;
+	color: #FFF;
+}
+
+.tile__copy{
+	margin: 0 0 2em 0;
+}
+
+.tile__info{
+	display: none;
+}
+
+.tile__icon{
+	fill: #DDD;
+	transition: all .1s linear;
+}
+
+.touch{
+	.tile{
+		background-color: darken(#FFF, 4%);
+		.tile__icon{
+			fill: #FFF;
+			transform: translateY(-1em);
+		}
+		.tile__info{
+			display: block;
+		}
+	}
+	.github{background-color: #4183c4;}
+	.twitter{background-color: #55acee;}
+	.mixd{background-color: #d62323;}
+	.witw{background-color: #4065c2;}
+	.blog{background-color: #7ec35e;}
+	.instagram{background-color: #3f729b;}
+}
+
+.github:hover{background-color: #4183c4;}
+.twitter:hover{background-color: #55acee;}
+.mixd:hover{background-color: #d62323;}
+.witw:hover{background-color: #4065c2;}
+.blog:hover{background-color: #7ec35e;}
+.instagram:hover{background-color: #3f729b;}
