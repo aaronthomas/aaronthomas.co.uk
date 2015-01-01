@@ -23,5 +23,5 @@
 <body>
 
     <header class="header container" role="banner">
-        <h1 class="site-title gamma"><a href="/">&middot; <?php echo $site->title()->html() ?> &middot;</a></h1>
+        <h1 class="site-title gamma"><a href="/"><?php echo $site->title()->html() ?></a></h1>
     </header> 
