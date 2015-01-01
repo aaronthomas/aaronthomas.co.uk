@@ -29,7 +29,7 @@ module.exports = function( grunt ) {
                     '<%= dirs.assets %>/js/min/main.min.js': [
                         '<%= dirs.components %>/jquery/dist/jquery.min.js',
                         '<%= dirs.assets %>/grunticon/grunticon.loader.txt',
-                        '<%= dirs.assets %>/js/main.js'
+                        '<%= dirs.assets %>/js/_main.js'
                     ],
                     '<%= dirs.assets %>/js/min/head.min.js': [
                         '<%= dirs.assets %>/js/vendor/modernizr.js',

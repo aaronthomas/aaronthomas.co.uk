@@ -1,0 +1,29 @@
+.index__item{
+	display: block;
+	padding: 2.5em 0;
+	border-top: 1px solid $color-keyline;
+	&:hover{background-color: darken(#FFF, 5%);}
+	&:last-child{
+		border-bottom: 1px solid $color-keyline;
+	}
+
+	.container{
+		max-width: $container-max-width * 1.5;
+		@include respond-max($bp2){
+			background: none;
+		}
+		background-size: contain;
+		background-position: right;
+	}
+}
+
+.index__item__title{
+	margin: 0;
+}
+
+.index__item__meta{
+	font-family: $font-serif;
+	color: lighten($color-text, 30%);
+	font-style: italic;
+	line-height: 1;
+}

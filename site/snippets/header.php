@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
+    <title><?php if(!$page->isHomepage()): ?><?php echo $page->title()->html(); ?> | <?php endif; ?><?php echo $site->title()->html() ?> | Web Design and Front-end Developer</title>
     <meta name="description" content="<?php echo $site->description()->html() ?>">
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
@@ -20,9 +20,8 @@
     <noscript><?php echo css('assets/grunticon/icons.fallback.css') ?></noscript>
 </head>
 
-<body class="viewport debug">
+<body>
 
-<main class="viewport__upper" role="main">
     <header class="header container" role="banner">
-    <h1 class="site-title gamma"><?php echo $site->title()->html() ?></h1>
+        <h1 class="site-title gamma"><a href="/">&middot; <?php echo $site->title()->html() ?> &middot;</a></h1>
     </header> 

@@ -6,8 +6,8 @@ Author: Aaron Thomas, Mixd
 
 ----
 
-Description: The Mixd starting point for Kirby based projects
+Description: Aaron Thomas is a front-end web designer and developer based in Leeds, leading front-end stuff at Mixd in Harrogate.
 
 ----
 
-Keywords: Mixd, Kirby, boilerplate
+Keywords: Aaron,Thomas,Front-end developer,Front-end,design,web,sheffield,leeds,development

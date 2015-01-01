@@ -10,7 +10,7 @@
 
 /* $. Vertical Rhythm
 \*----------------------------------------------------------------*/
-h1, h2, h3, h4, h5, h6 { font-family: $font-serif; margin-bottom: .65em; margin-top: $baseline;  line-height: 1; font-weight: normal;}
+h1, h2, h3, h4, h5, h6 { font-family: $font-serif; margin-bottom: .5em; margin-top: $baseline;  line-height: 1; font-weight: normal;}
 h1, blockquote, pre, p, ul, ol, dl, hr { margin-top: 0; }
 p, ul, ol, dl, hr, form, table, blockquote, pre { margin-bottom: $baseline; }
 hr { border-top: 1px solid $color-keyline; }
@@ -36,6 +36,11 @@ h6, .zeta { @include font-size(14); }
     letter-spacing: .25em;
 }
 
+.credit{
+    font-family: $font-serif;
+    font-style: italic;
+    color: lighten($color-text, 20%);
+}
 
 /* $. Blockquotes
 \*----------------------------------------------------------------*/

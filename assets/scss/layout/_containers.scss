@@ -1,34 +1,24 @@
 /* $. Containers
 \*----------------------------------------------------------------*/
 
-.viewport{
-	@include respond-min($bp1){
-		display: flex;
-		min-height: 100vh;
-		flex-direction: column;
-	}
-}
-
-.viewport__upper{
-	@include respond-min($bp1){
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	padding: 2em 0;
-}
-
-.viewport__upper, .viewport__lower{
-	flex: 1;
+main{
+	margin-bottom: 4em;
 }
 
 .container {
     margin: 0 auto;
     width: 92.5%;
-    min-width: 15em;
     max-width: $container-max-width;
     @include respond-min($bp1) {
         width: 85%;
     }
+}
+
+.container--wide{
+	max-width: $container-max-width * 1.25;
+}
+
+.footer{
+	background-color: darken(#FFF, 5%);
+	padding: 1em 0;
 }
