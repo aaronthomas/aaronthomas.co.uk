@@ -1,0 +1,31 @@
+Title: On self-motivation
+----
+Date: 14 January 2015
+----
+Text:
+
+It's been a little over a year since I last wrote in this blog. The last post was in January 2014, when I wrote a lengthy review of 2013 and promised myself that I would keep it updated at least once a month.
+
+I deleted that post.
+
+This year I won't be making any empty promises to write regularly—not because I don't intend to—but simply because I don't want to feel the guilt when I don't find the time or when can't think of a topic worth writing about. I even intended to write this very post on the 1st of January, and here I am two weeks later only just finding time.
+
+It's not that I'm a particularly busy person, because I'm not. I generally have at least a couple of free hours a day and most weeks I'll spend at least a full day doing almost nothing of note. My problem is motivation. I—like most others—work around 42 hours a week, 9 to 5 each day. During those hours I work hard and I get stuff done without any lack of motivation or inclination to procrastinate, most days I'll not even take a break because I'm too involved with my work and don't want to break a clean run. So why is that when I get home after work, or sit down on a sunday afternoon with a coffee, I can't seem to bring myself to write?
+
+Over the past year I've kept a list of topics I want to blog about, from technical development issues to personal achievements and struggles. The list got to around 25 ideas and I never wrote about a single one. Many of my ideas have since become irrelevent or over-done since I first thought to write about them, so on New Years Day I stripped it down to just 6 that I still think are worth spending some time on. It was pretty distressing crossing so many ideas from that list as they felt like missed opportunities and I've always thought I was the type of person to make the most of any opportunity.
+
+It's not just my drive to write that suffers from this lack of motivation – I've also had a number of ideas for personal projects to start, programming languages to learn, as well as projects for friends and family that need attention. I wish I could spend my office time on these things, because that seems to be the only time I can focus.
+
+## Getting better
+
+It's no big revelation that it's important to keep a distinction between life at work and personal life, and I've always been very aware of how well defined that line was to me in particular.
+
+In September I left the UK to spend my remaining three and a half months of the year travelling around Europe. I continued to work whilst I was away – 4 days of the week I'd spend in coffee shops and bars doing my usual job from my laptop. The other 3 days I'd spend sightseeing and whatnot. Admittedly, before I left I was a little skeptical about how that might work. I already knew how much I struggle to stay motivated in "personal time", so how would I manage to get a full day's work in whilst I was surrounded by different cultures, different people, and so many things to see and do.
+
+To start with, it was a little difficult to hold onto that distiction between work time and personal time – however I later found that it was that line that was holding me back. I tried to work solid from 9 to 5 as I would normally, then spend the evenings and weekends playing tourist. That didn't work. I got carried away sightseeing on my lunch breaks, and found myself too tired to work by the time I was back behind my laptop 4 hours later. So I tried to actively incorporate that time into my day — I'd work for a few hours in the morning, spend the rest of the day exploring, then work a few more hours in the evening. That worked better, but I still struggled to stay focussed at night.
+
+I kept at it though, and continued to try and mix things up in a way that worked for me. After a couple of weeks I was confident that I was working as efficiently as I would in a normal day at the office. By the end of my trip my work hours were much more ad-hoc. I'd work a couple of hours in the morning, go out for a while, and jump into a coffee shop for a couple of hours to work, go back out and repeat that a few times in a day. That line between work and personal life had pretty much gone.
+
+On my return home, I knew that I'd need to get back into a regular 9–5 routine, but I hoped after spending that much time working so sporadically that I'd be better at being productive outside of my usual working hours. To some extent, that has been the case. I spent a few hours over the holidays redesigning this blog and porting it over to [Kirby](http://getkirby.com/), and yesterday I found myself catching up on emails at 10pm – not really the kind of productivity I was hoping for, but certainly a step in the right direction.
+
+I'm not usually one to make new years resolutions, and I'm a firm believer that if something needs resolving you shouldn't need to wait until the new year to address it. I see it as a coincidence that at the start of 2015 I'm resolving get better at self motivation. I'm not setting any arbitrary goals like ensuring I blog once a week, or learning a new language by whatever date, because I don't think that works for me. What does work for me though is acknowledging that I'm not happy with the way I am, and this blog post—my first in over a year—is my way doing that.
