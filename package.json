@@ -1,0 +1,38 @@
+{
+  "name": "aaronthomas.co.uk",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".next/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ./pages ./components",
+		"precommit": "yarn run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronthomas/aaronthomas.co.uk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronthomas/aaronthomas.co.uk/issues"
+  },
+  "homepage": "https://github.com/aaronthomas/aaronthomas.co.uk#readme",
+  "dependencies": {
+    "next": "^2.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^1.7.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "eslint-plugin-react": "^6.10.3",
+    "husky": "^0.13.3",
+    "prettier": "^1.2.2"
+  }
+}
