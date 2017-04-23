@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint ./pages ./components",
-		"precommit": "yarn run lint"
+		"lint:css": "stylelint \"./components/**/*.js\" \"./pages/**/*.js\"",
+    "precommit": "yarn run lint && yarn run lint:css"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,10 @@
     "eslint-plugin-prettier": "^2.0.1",
     "eslint-plugin-react": "^6.10.3",
     "husky": "^0.13.3",
-    "prettier": "^1.2.2"
+    "prettier": "^1.2.2",
+    "styled-components": "^1.4.5",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-processor-styled-components": "^0.1.0"
   }
 }
