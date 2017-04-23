@@ -29,6 +29,6 @@
     "linebreak-style": 0,
     "react/no-unused-prop-types": ["error", { "customValidators": [], "skipShapeProps": true }],
     "react/forbid-prop-types": 0,
-    "react/prop-types": 0,
+    "react/prop-types": 0
   }
 }
