@@ -8,12 +8,6 @@ const Homepage = () => (
   <Layout>
     <Head>
       <title>Aaron Thomas — Designer & Developer</title>
-      <link rel="shortcut icon" href="/static/favicon.ico" />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta
-        name="description"
-        content="Aaron Thomas, Web UI Designer and Developer"
-      />
     </Head>
     <Heading>hello.</Heading>
     <Paragraph lead>

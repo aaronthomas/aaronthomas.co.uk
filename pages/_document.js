@@ -18,9 +18,21 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html>
-        <Head />
+        <Head>
+          <link rel="shortcut icon" href="/static/favicon.ico" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta
+            name="description"
+            content="Aaron Thomas, Web UI Designer and Developer"
+          />
+          <meta name="theme-color" content="#d36868" />
+        </Head>
         <body>
           <Main />
+          <NextScript />
         </body>
       </html>
     );
