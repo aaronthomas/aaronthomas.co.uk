@@ -14,7 +14,7 @@ const Homepage = () => (
       I'm Aaron. I'm a UI designer and developer, currently based in Leeds, UK.
     </Paragraph>
     <Paragraph>
-      Right now I work at Sky, with a focus on design systems, acessibility, and composable UIs.
+      Right now I work at Sky, with a focus on design systems, accessibility, and composable UIs.
     </Paragraph>
     <Paragraph>
       You can find me
