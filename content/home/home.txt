@@ -1,9 +1,0 @@
-Title: Aaron Thomas
-
-----
-
-Text: 
-
-I’m Aaron, a Web Developer based in Leeds currently leading front-end stuff at [Mixd](http://mixd.co.uk), and organising [Work in the Web](http://workintheweb.com).
-
-Lover of punk & folk music, caffeine, travel and the outdoors. This blog is a mix of techy web dev stuff, personal ramblings, and other such nonsense.

@@ -1,17 +1,43 @@
 {
-  "name": "Mixd-Frontend-Framework",
-  "version": "1.2.0",
+  "name": "aaronthomas.co.uk",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".next/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ./pages ./components",
+    "lint:css": "stylelint \"./components/**/*.js\" \"./pages/**/*.js\"",
+    "precommit": "npm run lint && npm run lint:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronthomas/aaronthomas.co.uk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronthomas/aaronthomas.co.uk/issues"
+  },
+  "homepage": "https://github.com/aaronthomas/aaronthomas.co.uk#readme",
+  "dependencies": {
+    "next": "^2.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-autoprefixer": "~0.7.2",
-    "grunt-contrib-sass": "~0.7.3",
-    "grunt-contrib-uglify": "~0.3.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-grunticon": "~1.0.0",
-    "grunt-imageoptim": "~1.4.1",
-    "grunt-modernizr": "~0.5.2",
-    "grunt-pixrem": "^0.1.2",
-    "grunt-remfallback": "0.0.5",
-    "grunt-svgmin": "~0.4.0"
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^1.7.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "eslint-plugin-react": "^6.10.3",
+    "husky": "^0.13.3",
+    "prettier": "^1.2.2",
+    "styled-components": "^1.4.5",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-processor-styled-components": "^0.1.0"
   }
 }
