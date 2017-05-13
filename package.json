@@ -9,8 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint ./pages ./components",
-		"lint:css": "stylelint \"./components/**/*.js\" \"./pages/**/*.js\"",
-    "precommit": "yarn run lint && yarn run lint:css"
+    "lint:css": "stylelint \"./components/**/*.js\" \"./pages/**/*.js\"",
+    "precommit": "npm run lint && npm run lint:css"
   },
   "repository": {
     "type": "git",
