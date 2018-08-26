@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import styled from "styled-components";
 import Layout from "../components/Layout";
 import { Link, Heading, Paragraph } from "../components/Typography";
 
@@ -11,10 +10,12 @@ const Homepage = () => (
     </Head>
     <Heading>hello.</Heading>
     <Paragraph lead>
-      I'm Aaron. I'm a UI designer and developer, currently based in Leeds, UK.
+      I'm Aaron. I'm a UI Developer and Designer based in Brooklyn, NY.
     </Paragraph>
     <Paragraph>
-      Right now I work at Sky, with a focus on design systems, accessibility, and composable UIs.
+      I currently work as a Senior Developer at
+      {" "}
+      <Link href="http://work.co">Work & Co</Link>.
     </Paragraph>
     <Paragraph>
       You can find me
